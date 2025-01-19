@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Our Online Store</title>
+    <title>Contact Us - Our Online Store</title>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -20,16 +20,20 @@
         </nav>
     </header>
 
-    <main class="home-content">
-        <div class="text-section">
-            <h1>Welcome to Our Store!</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod eros eu risus fermentum, a tincidunt metus varius.</p>
-            <p>Donec eget ante suscipit, ullamcorper arcu ut, interdum justo. Nullam ac sapien eu erat blandit aliquam ac at felis.</p>
-        </div>
-        <div class="image-section">
-            <img src="product1.jpg" alt="Product 1">
-            <img src="product2.jpg" alt="Product 2">
-        </div>
+    <main>
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            
+            <input type="submit" value="Submit">
+        </form>
     </main>
 
     <footer>
